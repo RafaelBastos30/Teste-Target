@@ -6,6 +6,6 @@ while(k < Indicie){
     k=k+1;
     soma=soma+k;
 }
-System.out.println(soma);
+System.out.println("O resultado é: "+soma);
     }
     }
