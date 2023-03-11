@@ -1,7 +1,8 @@
 import java.util.Scanner;
-class q5 {
-    public static void main(String[] args){
+class q5 {  
+  public static void main(String args[]) { 
     Scanner sc = new Scanner(System.in);
+    System.out.println("Digite uma palavra: ");
     String palavra = sc.next();
     String palavrainv = "";
     
@@ -11,5 +12,5 @@ class q5 {
     }
 System.out.println(palavrainv);
 sc.close();
-    }
+  } 
 }
